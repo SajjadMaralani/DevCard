@@ -15,5 +15,7 @@ namespace DevCard.Data
         }
 
         public DbSet<DevCard.Models.Project> Project { get; set; }
+
+        public DbSet<DevCard.Models.Article> Article { get; set; }
     }
 }
